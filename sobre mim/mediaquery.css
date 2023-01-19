@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 650px) {
+
+    * {
+        overflow-x: hidden;
+    }
+
+    header {
+        max-width: 70vw;
+        margin: auto;
+    }
+
+    header .logo {
+        margin: auto;
+        margin-top: 20px;
+        width: 60vw;
+    }
+
+    header h1 {
+        width: 100%;
+    }
+
+    main {
+        height: 310px;
+        width: 65vw;
+        overflow-x: hidden;
+    }
+
+    section {
+        border: 1px solid rgba(0, 0, 0, 0.61);
+    }
+}
