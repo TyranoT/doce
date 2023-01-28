@@ -51,9 +51,9 @@ body {
 
     width: 98vw;
 
-    transform: translateY(-100px);
+    transform: translateY(-200px);
     animation-name: animacao;
-    animation-duration: 2.1s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
