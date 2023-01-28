@@ -74,8 +74,12 @@ header .logo img {
 header h1 {
     margin: auto;
     margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
     text-align: center;
+    font-family: var(--fonte3);
+    font-size: 1.7em;
 
     background-color: var(--cor3);
     color: white;
@@ -166,7 +170,8 @@ section:hover {
 }
 
 section a {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte3);
+    font-size: 1.2em;
     color: white;
     text-decoration: none;
 }
